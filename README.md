@@ -6,6 +6,7 @@ Building a RESTful API built using Golang with the Gin framework and Gorm ORM, u
 
 1.Clone the repository
 >git clone https://github.com/tu0504/Demo_gin_gorm_CRUD/issues
+>
 >cd project-name
 
 2.Install dependencies
@@ -13,10 +14,15 @@ Building a RESTful API built using Golang with the Gin framework and Gorm ORM, u
 
 3.Set up environment variables (create a .env file):
 >DB_HOST=localhost
+>
 >DB_PORT=5432
+>
 >DB_USER=postgres
+>
 >DB_PASSWORD=yourpassword
+>
 >DB_NAME=test
+>
 >DB_SSLMODE=disable
 
 4.Run PostgreSQL with Podman
